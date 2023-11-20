@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+form {
+  margin: auto;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+
+.signUpForm div {
+  margin: auto;
+  display: flex;
+  align-items: stretch;
+}
+
+.btn {
+  padding: 50px;
+  text-align: center;
+  transform: translate(400px, 0px);
+}
